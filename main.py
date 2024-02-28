@@ -1,7 +1,7 @@
-from persona import persona
+from persona import Persona
 
 def main():
-    joel = persona("joel", 25)
+    joel = Persona("joel", 25)
     joel.imprimir()
     joel.cumpleanos()
 
