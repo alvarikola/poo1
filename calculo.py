@@ -6,19 +6,23 @@ class Calculo:
 
     
     def suma(self):
-        print(self.numero1 + self.numero2)
+        self.sum = self.numero1 + self.numero2
+        print(f"El resultado de la suma es: {self.sum}")
 
 
     def resta(self):
-        print(self.numero1 - self.numero2)
+        self.rest = self.numero1 - self.numero2
+        print(f"El resultado de la resta es: {self.rest}")
 
 
     def multiplicacion(self):
-        print(self.numero1 * self.numero2)
+        self.multi = self.numero1 * self.numero2
+        print(f"El resultado de la multiplicación es: {self.multi}")
 
 
     def division(self):
-        print(self.numero1 / self.numero2)
+        self.divi = self.numero1 / self.numero2
+        print(f"El resultado de la división es: {self.divi}")
 
 
 
